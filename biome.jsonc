@@ -1,4 +1,13 @@
 {
   "$schema": "https://biomejs.dev/schemas/2.1.1/schema.json",
   "extends": ["ultracite"],
+  "files": {
+    "includes": [
+      "**",
+      "!**/*.test.js",
+      "**/special.test.js",
+      "!test",
+      "!**/routeTree.gen.ts"
+    ]
+  }
 }
